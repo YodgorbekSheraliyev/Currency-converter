@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    text-align: center;
+}
+.box {
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 100px;
+    width: 450px;
+    border: 1px solid black;
+    height: 200px;
+}
+select {
+    width: 100px;
+    height: 30px;
+    background: greenyellow;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+select > option:hover {
+    font-size: 2rem;
+    width: 50px;
+    background-color: red;
+}
+.convert {
+    padding: 5px 20px;
+    background-color: orange;
+    border: none;
+    transform: translateY(-50px);
+}
+.currency {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    color: white;
+}
